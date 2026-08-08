@@ -1,0 +1,39 @@
+.toast {
+  border: 12px;
+  border-color: aqua;
+  border-radius: 1.75rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  animation: Create 3s ease forwards;
+
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.525);
+}
+@keyframes Create {
+  from {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+  1% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  91% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.label {
+  font-size: large;
+  font-family: Inter;
+  font-weight: 600;
+  color: white;
+}
+.title {
+  font-family: Inter;
+  font-weight: 300;
+  color: white;
+}
